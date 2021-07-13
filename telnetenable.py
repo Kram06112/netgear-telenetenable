@@ -41,7 +41,7 @@ def ByteSwap(data):
     a = array.array('L')
   
   if(a.itemsize != 4):
-    print "Need a type that is 4 bytes on your platform so we can fix the data!"
+    print ("Need a type that is 4 bytes on your platform so we can fix the data!")
     exit(1)
 
   a.fromstring(data)
